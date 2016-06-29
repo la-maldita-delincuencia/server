@@ -1,0 +1,28 @@
+{
+  "name": "NewsLink",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "n"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "newsOutlet": {
+      "type": "hasOne",
+      "model": "NewsOutlet",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

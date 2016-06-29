@@ -32,7 +32,15 @@
     "dataSource": "db",
     "public": false
   },
-  "article": {
+  "Article": {
+    "dataSource": "db",
+    "public": true
+  },
+  "NewsLink": {
+    "dataSource": "db",
+    "public": false
+  },
+  "NewsOutlet": {
     "dataSource": "db",
     "public": true
   }
