@@ -15,7 +15,10 @@
       {
         "type": "NewsLink"
       }
-    ]
+    ],
+    "published": {
+      "type": "boolean"
+    }
   },
   "validations": [],
   "relations": {},
